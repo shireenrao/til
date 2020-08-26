@@ -4,7 +4,7 @@
 
 My Today I learned snippets. Inspired by [simonw/til](https://github.com/simonw/til).
 
-<!-- count starts -->5<!-- count ends --> TILs so far.
+<!-- count starts -->6<!-- count ends --> TILs so far.
 
 <!-- index starts -->
 ## git
@@ -20,4 +20,8 @@ My Today I learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 ## flask
 
 * [Bad Request Version](https://github.com/shireenrao/til/blob/master/flask/bad-request.md) - 2020-08-24
+
+## python
+
+* [MetaClasses Basics](https://github.com/shireenrao/til/blob/master/python/metaclasses-basics.md) - 2020-08-26
 <!-- index ends -->
