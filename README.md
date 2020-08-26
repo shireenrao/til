@@ -4,7 +4,7 @@
 
 My Today I learned snippets. Inspired by [simonw/til](https://github.com/simonw/til).
 
-<!-- count starts -->6<!-- count ends --> TILs so far.
+<!-- count starts -->7<!-- count ends --> TILs so far.
 
 <!-- index starts -->
 ## git
@@ -24,4 +24,5 @@ My Today I learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 ## python
 
 * [MetaClasses Basics](https://github.com/shireenrao/til/blob/master/python/metaclasses-basics.md) - 2020-08-26
+* [Interesting Tips](https://github.com/shireenrao/til/blob/master/python/interesting-tips.md) - 2020-08-26
 <!-- index ends -->
