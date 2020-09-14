@@ -57,6 +57,7 @@ def build_database(repo_path):
             "topic": path.split("/")[0],
             "title": title,
             "url": url,
+            "relative_url": path,
             "body": body,
         }
         if (body != previous_body) or not previous_html:
