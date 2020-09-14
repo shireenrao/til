@@ -32,5 +32,5 @@ My Today I learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 ## aws
 
 * [Elastic IP Cleanup](https://github.com/shireenrao/til/blob/master/aws/elastic_ip_cleanup.md) - 2020-09-03
-* [Setup Keypaid for ssh](https://github.com/shireenrao/til/blob/master/aws/setup_keypair_for_ssh.md) - 2020-09-03
+* [Setup Keypair for ssh](https://github.com/shireenrao/til/blob/master/aws/setup_keypair_for_ssh.md) - 2020-09-03
 <!-- index ends -->
