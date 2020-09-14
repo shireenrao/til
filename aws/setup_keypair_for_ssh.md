@@ -1,4 +1,4 @@
-# Setup Keypaid for ssh
+# Setup Keypair for ssh
 
 AWS Cli makes it super easy
 
