@@ -4,6 +4,8 @@
 
 My Today I learned snippets. Inspired by [simonw/til](https://github.com/simonw/til).
 
+Read them at https://shireenrao.github.io/til/
+
 <!-- count starts -->12<!-- count ends --> TILs so far.
 
 <!-- index starts -->
