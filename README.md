@@ -6,7 +6,7 @@ My Today I learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 Read them at https://shireenrao.github.io/til/
 
-<!-- count starts -->12<!-- count ends --> TILs so far.
+<!-- count starts -->15<!-- count ends --> TILs so far.
 
 <!-- index starts -->
 ## git
@@ -35,4 +35,13 @@ Read them at https://shireenrao.github.io/til/
 
 * [Elastic IP Cleanup](aws/elastic_ip_cleanup.md) - 2020-09-03
 * [Setup Keypair for ssh](aws/setup_keypair_for_ssh.md) - 2020-09-03
+
+## rambling
+
+* [My Ramblings](rambling/rambling.md) - 2020-10-08
+
+## postgres
+
+* [Uninstall Postgres](postgres/uninstall_postgres.md) - 2020-10-08
+* [Setup Notes](postgres/setup_notes.md) - 2020-10-08
 <!-- index ends -->
