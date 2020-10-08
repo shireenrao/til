@@ -6,7 +6,7 @@ My Today I learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 Read them at https://shireenrao.github.io/til/
 
-<!-- count starts -->15<!-- count ends --> TILs so far.
+<!-- count starts -->16<!-- count ends --> TILs so far.
 
 <!-- index starts -->
 ## git
@@ -44,4 +44,5 @@ Read them at https://shireenrao.github.io/til/
 
 * [Uninstall Postgres](postgres/uninstall_postgres.md) - 2020-10-08
 * [Setup Notes](postgres/setup_notes.md) - 2020-10-08
+* [Trusting Local Development](postgres/trusting_local_development.md) - 2020-10-08
 <!-- index ends -->
