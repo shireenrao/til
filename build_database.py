@@ -3,6 +3,7 @@ import httpx
 import git
 import os
 import pathlib
+from urllib.parse import urlencode
 import sqlite_utils
 from sqlite_utils.db import NotFoundError
 import time
@@ -42,6 +43,7 @@ def build_database(repo_path):
         title = fp.readline().lstrip("#").strip()
         body = fp.read().strip()
         path = str(filepath.relative_to(root))
+        slug = filepath.stem
         url = "https://github.com/shireenrao/til/blob/master/{}".format(path)
         # Do we need to render the markdown?
         path_slug = path.replace("/", "_")
@@ -54,6 +56,7 @@ def build_database(repo_path):
             previous_html = None
         record = {
             "path": path_slug,
+            "slug": slug,
             "topic": path.split("/")[0],
             "title": title,
             "url": url,
@@ -62,6 +65,7 @@ def build_database(repo_path):
         }
         if (body != previous_body) or not previous_html:
             retries = 0
+            response = None
             while retries < 3:
                 headers = {}
                 if os.environ.get("GITHUB_TOKEN"):
@@ -71,7 +75,7 @@ def build_database(repo_path):
                 response = httpx.post(
                     "https://api.github.com/markdown",
                     json={
-                        # mode=gfm woud expand #13 issue links and suchlike
+                        # mode=gfm would expand #13 issue links and suchlike
                         "mode": "markdown",
                         "text": body,
                     },
@@ -84,6 +88,7 @@ def build_database(repo_path):
                 else:
                     print("  sleeping 60s")
                     time.sleep(60)
+                    retries += 1
             else:
                 assert False, "Could not render {} - last response was {}".format(
                     path, response.headers
@@ -91,8 +96,10 @@ def build_database(repo_path):
         record.update(all_times[path])
         with db.conn:
             table.upsert(record, alter=True)
-    if "til_fts" not in db.table_names():
-        table.enable_fts(["title", "body"])
+
+    table.enable_fts(
+        ["title", "body"], tokenize="porter", create_triggers=True, replace=True
+    )
 
 
 if __name__ == "__main__":
