@@ -11,8 +11,8 @@ Read them at https://shireenrao.github.io/til/
 <!-- index starts -->
 ## git
 
-* [Delete Git Branch](git/delete-git-branch.md) - 2020-08-24
 * [Finding Git Merge Issues](git/find-merge-issues.md) - 2020-08-24
+* [Delete Git Branch](git/delete-git-branch.md) - 2020-08-24
 
 ## redis
 
