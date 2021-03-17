@@ -6,7 +6,7 @@ My Today I learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 Read them at https://shireenrao.github.io/til/
 
-<!-- count starts -->17<!-- count ends --> TILs so far.
+<!-- count starts -->18<!-- count ends --> TILs so far.
 
 <!-- index starts -->
 ## git
@@ -49,4 +49,8 @@ Read them at https://shireenrao.github.io/til/
 ## unix
 
 * [Screen](unix/screen.md) - 2021-02-16
+
+## github
+
+* [Github Actions](github/github-actions.md) - 2021-03-17
 <!-- index ends -->
