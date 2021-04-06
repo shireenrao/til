@@ -6,13 +6,13 @@ My Today I learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 Read them at https://shireenrao.github.io/til/
 
-<!-- count starts -->18<!-- count ends --> TILs so far.
+<!-- count starts -->19<!-- count ends --> TILs so far.
 
 <!-- index starts -->
 ## git
 
-* [Finding Git Merge Issues](git/find-merge-issues.md) - 2020-08-24
 * [Delete Git Branch](git/delete-git-branch.md) - 2020-08-24
+* [Finding Git Merge Issues](git/find-merge-issues.md) - 2020-08-24
 
 ## redis
 
@@ -42,8 +42,8 @@ Read them at https://shireenrao.github.io/til/
 
 ## postgres
 
-* [Uninstall Postgres](postgres/uninstall_postgres.md) - 2020-10-08
 * [Setup Notes](postgres/setup_notes.md) - 2020-10-08
+* [Uninstall Postgres](postgres/uninstall_postgres.md) - 2020-10-08
 * [Trusting Local Development](postgres/trusting_local_development.md) - 2020-10-08
 
 ## unix
@@ -53,4 +53,8 @@ Read them at https://shireenrao.github.io/til/
 ## github
 
 * [Github Actions](github/github-actions.md) - 2021-03-17
+
+## ubuntu
+
+* [Apt Update Failing](ubuntu/apt-get-update-failing.md) - 2021-04-06
 <!-- index ends -->
