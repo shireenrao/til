@@ -6,7 +6,7 @@ My Today I learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 Read them at https://shireenrao.github.io/til/
 
-<!-- count starts -->19<!-- count ends --> TILs so far.
+<!-- count starts -->20<!-- count ends --> TILs so far.
 
 <!-- index starts -->
 ## git
@@ -42,8 +42,8 @@ Read them at https://shireenrao.github.io/til/
 
 ## postgres
 
-* [Setup Notes](postgres/setup_notes.md) - 2020-10-08
 * [Uninstall Postgres](postgres/uninstall_postgres.md) - 2020-10-08
+* [Setup Notes](postgres/setup_notes.md) - 2020-10-08
 * [Trusting Local Development](postgres/trusting_local_development.md) - 2020-10-08
 
 ## unix
@@ -57,4 +57,8 @@ Read them at https://shireenrao.github.io/til/
 ## ubuntu
 
 * [Apt Update Failing](ubuntu/apt-get-update-failing.md) - 2021-04-06
+
+## docker
+
+* [Docker on WSL2](docker/wsl2.md) - 2022-05-23
 <!-- index ends -->
